@@ -1,16 +1,19 @@
-### Hi there 👋
+### 🙋🏽‍♂️ Olá, tudo bem?
 
-<!--
-**SamuelNunesDev/SamuelNunesDev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="https://raw.githubusercontent.com/SamuelNunesDev/bootstrap-jquery/main/bootstrap/Portif%C3%B3lio/images/perfil.jpeg">
 
-Here are some ideas to get you started:
+Meu nome é Samuel Nunes, sou estudante na área de desenvolvimento de sistemas e atuo no mercado como Analista de Desenvolvimento de Sistemas JR oferecendo soluções completas com alta qualidade, de acordo com a necessidade do cliente.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### 📃 Sobre mim...
+
+- 👨‍💻 Analista de Desenvolvimento de Sistemas JR na VGX Contact Center.
+- 👨‍🎓 Estudante de Análise e Desenvolvimento de Sistemas, atualmente cursando o 3º semestre.
+- 💻 Conhecimento e experência com as tecnologias: PHP, Laravel, CSS, Bootstrap, Javascript, Jquery, HTML, Git, MySQL, PostgreSQL, Apache, Linux e Cloud Computing.
+- 🌱 Além da faculdade agora estou focado em desenvolver sistemas web com os frameworks [Laravel](https://laravel.com/) e [Vue.js](https://vuejs.org/), junto com o banco de dados [PostgreSQL](https://www.postgresql.org/)
+- 💬 Me pergunte sobre sistemas web a serem, ou já desenvolvidos. De repente podemos ser paceiros, hein?
+- 😁 Sou bem energético e motivado, focado em aprendizado e em resultados sempre com qualidade. Expertise em sistemas web administrativos, dashboards, relatórios e etc.
+- 📫 Entre em contato comigo:
+
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/USERNAME/) [<img src = "https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/sam_freerider/) [<img src = "https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white">](https://www.facebook.com/Samuel.Nunes.de.Souza2/)
+
+![Status do GitHub de Samuel Nunes](https://github-readme-stats.vercel.app/api?username=SamuelNunesDev&hide=prs,issues,contribs)]
