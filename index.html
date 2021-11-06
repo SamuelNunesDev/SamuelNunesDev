@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Samuel Nunes - Portifólio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark px-4 fixed-top shadow" id="sideNav">
+            <span class="d-none d-lg-block">
+                <img src="images/perfil.jpeg" width="150" height="150" class="rounded-circle img-profile" alt="Samuel">
+            </span>
+            <a class="navbar-brand pl-4" href="#sideNav">Samuel Nunes de Souza</a>
+            <label>Desenvolvedor Web</label>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <ul class="navbar-nav navbar-right">
+                <li class="nav-item my-2"><a class="nav-item nav-link active" id="btnInicio" href="#sideNav">Inicio</a></li>
+                <li class="nav-item my-2"><a class="nav-item nav-link" id="trabalhos" href="#trabalhos-recentes">Projetos Recentes</a></li>
+                <li class="nav-item my-2"><a class="nav-item nav-link" id="contato" href="#entre-em-contato">Entre em Contato</a></li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <main class="container-fluid px-5">
+        <section class="section border-bottom" id="inicio">
+            <h2 class="mt-2 mb-4 text-dark" id="boas-vindas">🙋🏽‍♂️ Olá, tudo bem?</h2>
+            <p class="indent apresentacao">Meu nome é Samuel Nunes, sou estudante na área de desenvolvimento de sistemas e atuo no mercado como Analista de Desenvolvimento de Sistemas JR oferecendo soluções completas com alta qualidade, de acordo com a necessidade do cliente.</p>
+            <a href="#" class="btn btn-outline-dark mt-2 mb-4 apresentacao" role="button" data-target="#modalMore" data-toggle="modal">
+                <i class="fa fa-plus-circle"></i> Saiba Mais
+            </a>
+        </section>
+        <section class="section animate" id="trabalhos-recentes">
+            <h2 class="mt-4 mb-5 text-dark">
+                <i class="fa fa-briefcase mr-1"></i> Projetos Recentes</h2>
+            <article class="row justify-content-around">
+                <div class="card col-sm-6" style="width: 18rem;">
+                    <a href="https://abraco-quentinho.herokuapp.com/" target="_blank">
+                        <img class="card-img-top" src="images/abraco-quentinho.jpg" alt="Card image cap">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="text-dark">Abraço Quentinho</h5>
+                        <p><small>Plataforma de doações para ajudar quem necessita de alimentos, agasalhos e etc. Site colaborativo e sem fins lucrativos.</small></p>
+                    </div>
+                </div>
+                <div class="card col-sm-6" style="width: 18rem;">
+                    <a href="https://laravel-crud-samuel.herokuapp.com/" target="_blank">
+                        <img class="card-img-top" src="images/laravel-crud.jpg" alt="Card image cap">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="text-dark">Laravel CRUD</h5>
+                        <p><small>Projeto construído a caráter de estudos. Sistema com 4 tabelas relacionadas, sendo uma delas a pivot. Desenvolvi este site a fim de mostrar minha evolução em 4 meses de desenvolvimento.</small></p>
+                    </div>
+                </div>
+            </article>
+            <article class="row justify-content-around">
+                <div class="card col-sm-6" style="width: 18rem;">
+                    <a href="https://samuelnunesdev.github.io/bootstrap-jquery/jquery/Site%20Bootstrap-Jquery/" target="_blank">
+                        <img class="card-img-top" src="images/site_jquery.jpg" alt="Card image cap">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="text-dark">Template Para Site de Treinamentos</h5>
+                        <p><small>Neste site contém alguns efeitos parallax e animações css, feito com jquery.</small></p>
+                    </div>
+                </div>
+                <div class="card col-sm-6" style="width: 18rem;">
+                    <a href="https://samuelnunesdev.github.io/bootstrap-jquery/bootstrap/Site%20Bootstrap%202/" target="_blank">
+                        <img class="card-img-top" src="images/site_bootstrap_2.jpg" alt="Card image cap">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="text-dark">Template Para Site Corporativo</h5>
+                        <p><small>Layout construído com bootstrap, fácil de implementar e customizar.</small></p>
+                    </div>
+                </div>
+            </article>
+            <article class="row justify-content-around">
+                <div class="card col-sm-6" style="width: 18rem;">
+                    <a href="https://samuelnunesdev.github.io/starting-point-in-javascript/Projeto/" target="_blank">
+                        <img class="card-img-top" src="images/site_javascript.jpg" alt="Card image cap">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="text-dark">Mão na Roda</h5>
+                        <p><small>Desenvolvi este site no ínicio dos meus estudos em javascript. O intuito era capacitar os colaboradores da empresa, agilizando nos processos de resolução de problemas do dia a dia e aumentando a produtividade.</small></p>
+                    </div>
+                </div>
+                <div class="card col-sm-6" style="width: 18rem;">
+                    <a href="https://samuelnunesdev.github.io/bootstrap-jquery/jquery/galeria%20de%20imagens/" target="_blank">
+                        <img class="card-img-top" src="images/galeria_de_imagens.png" alt="Card image cap">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="text-dark">Galeria de Imagens</h5>
+                        <p><small>Visualizador de imagens com animação fade, feito com jquery.</small></p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="section animate" id="entre-em-contato">
+            <h2 class="my-4 text-dark">
+                <i class="fa fa-phone mr-2"></i> Entre em Contato
+            </h2>
+            <p class="indent">Me envie uma mensagem no whatsapp, se for de sua preferência irei te responder via e-mail ✉️</p>
+            <article class="row">
+                    <div class="col-12 col-md-9">
+                        <form method="GET" action="https://wa.me/5538988451471" target="_blank">
+                            <div class="form-row row">
+                              <div class="col-12 col-sm-6 my-2">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Nome completo">
+                              </div>
+                              <div class="col-12 col-sm-6 my-2">
+                                <label for="email">E-mail</label>
+                                <input type="text" class="form-control" id="email" placeholder="E-mail">
+                              </div>
+                              <div class="col-12 my-2">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea type="text" class="form-control" id="mensagem" name="text" placeholder="Mensagem" rows="5"></textarea>
+                                <button type="submit" class="btn btn-success mt-3" id="formZap">
+                                    <i class="fa fa-comments"></i> Enviar Mensagem
+                                </button>
+                              </div>
+                            </div>
+                        </form>
+                    </div>
+                <aside class="col-12 col-md-3 px-md-0 mt-3 mt-md-4">
+                    <address>
+                        <p><span>Endereço: </span>Montes Claros - MG, Brasil</p>
+                        <p><span>Telefone: </span>(38) 98845-1471</p>
+                        <p><span>E-mail: </span>sammoc11@hotmail.com</p>
+                    </address>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <section class="p-3 bg-secondary animate">
+        <div class="row justify-content-around">
+            <a href="https://linkedin.com/in/samuel-nunes-de-souza-771925225" target="_blank" class="btn btn-info">
+                <img class="p-0 m-0 mb-1" src="images/Linkedin_icon.svg" width="30px" height="20px"> LinkedIn
+            </a>
+            <a href="https://github.com/samuelNunesDev/" target="_blank" class="btn btn-dark">
+                <i class="fa fa-code-branch"></i> GitHub
+            </a>
+            <a href="files/Currículo_Samuel_Nunes.pdf" target="_blank" class="btn btn-primary">
+                <i class="fa fa-paste"></i> Currículo Vitae
+            </a>
+        </div>
+    </section>
+    <div class="modal fade" id="modalMore" tabindex="-1" role="dialog" aria-labelledby="modalMoreLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-dark" id="modalMoreLabel">
+                    <i class="fa fa-address-card mr-2"></i> Sobre mim...
+                </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <ul>
+                  <li class="my-2">👨‍💻 Analista de Desenvolvimento de Sistemas JR na VGX Contact Center.</li>
+                  <li class="my-2">👨‍🎓 Estudante de Análise e Desenvolvimento de Sistemas, atualmente cursando o 3º semestre.</li>
+                  <li class="my-2">💻 Conhecimento e experência com as tecnologias: PHP, Laravel, CSS, Bootstrap, Javascript, Jquery, HTML, Git, MySQL, PostgreSQL, Apache, Linux e Cloud Computing.</li>
+                  <li class="my-2">😁 Sou bem energético e motivado, focado em aprendizado e em resultados sempre com qualidade. Expertise em sistemas web administrativos, dashboards, relatórios e etc.</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+                <a href="https://linkedin.com/in/samuel-nunes-de-souza-771925225" target="_blank" class="btn btn-info">
+                    <img class="p-0 m-0 mb-1" src="images/Linkedin_icon.svg" width="30px" height="20px"> LinkedIn
+                </a>
+                <a href="https://github.com/samuelNunesDev/" target="_blank" class="btn btn-dark">
+                    <i class="fa fa-code-branch"></i> GitHub
+                </a>
+                <a href="files/Currículo_Samuel_Nunes.pdf" target="_blank" class="btn btn-primary">
+                    <i class="fa fa-paste"></i> Currículo Vitae
+                </a>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                    <i class="fa fa-times-circle"></i> Fechar
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <footer>
+        <ul class="nav justify-content-end mb-2 px-4">
+            <li class="nav-item mx-2">
+                <a href="https://www.facebook.com/Samuel.Nunes.de.Souza2/" target="_blank">
+                    <img src="images/facebook.png" alt="logo do facebook">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="https://github.com/SamuelNunesDev/" target="_blank">
+                    <img src="images/github.png" alt="logo do github">
+                </a>
+            </li>
+            <li class="nav-item mx-2">
+                <a href="https://linkedin.com/in/samuel-nunes-de-souza-771925225" target="_blank">
+                    <img src="images/linkedin.png" alt="logo do linkedin">
+                </a>
+            </li>
+        </ul>
+        <ul class="nav justify-content-end px-3">
+            <li class="nav-item mx-3">&copy; 2020 - 2021 | Todos os direitos reservados</li>
+        </ul>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/font-awesome.js"></script>
+    <script>
+        $(function() {
+            let trabalho = $('#trabalhos-recentes').position().top - 130
+            let contato = $('#entre-em-contato').position().top - 130
+            $('#btnInicio, #trabalhos, #contato').on('click', function(e) {
+                e.preventDefault()
+                $('html').animate({scrollTop: $(`#${this.href.split('#')[1]}`).position().top-30}, 1000)
+            })
+            $(window).on('scroll', function(e) {
+                scroll = $(this).scrollTop()
+                if(scroll < trabalho) {
+                    $('#btnInicio, #trabalhos, #contato').removeClass('active')
+                    $('#btnInicio').addClass('active') 
+                }
+                if(scroll >= trabalho) {
+                    $('#btnInicio, #trabalhos, #contato').removeClass('active')
+                    $('#trabalhos').addClass('active')
+                }
+                if(scroll >= contato) {
+                    $('#btnInicio, #trabalhos, #contato').removeClass('active')
+                    $('#contato').addClass('active')
+                }
+            })
+            $('#formZap').on('click', function(e) {
+                e.preventDefault()
+                let nome = $('#nome').val()
+                let email = $('#email').val()
+                let msg = $('#mensagem').val()
+                $('#mensagem').val(`${msg} \nby: ${nome} \nemail: ${email}`)
+                $('form').submit()
+            })
+
+            $('.animate, .apresentacao, #boas-vindas').hide()
+            setInterval(function() {
+                $('#boas-vindas').fadeIn(500)
+            }, 500)
+            setInterval(function() {
+                $('.apresentacao').fadeIn(500)
+            }, 1000)
+            setInterval(function() {
+                $('.animate').fadeIn(500)
+            }, 2000)
+        })
+    </script>
+</body>
+</html>
