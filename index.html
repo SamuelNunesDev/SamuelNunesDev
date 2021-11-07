@@ -15,8 +15,8 @@
             <span class="d-none d-lg-block">
                 <img src="images/perfil.jpeg" width="150" height="150" class="rounded-circle img-profile" alt="Samuel">
             </span>
-            <a class="navbar-brand pl-4" href="#sideNav">Samuel Nunes de Souza</a>
-            <label>Desenvolvedor Web</label>
+            <a class="navbar-brand pl-md-4 px-sm-0" href="#sideNav">Samuel Nunes de Souza</a>
+            <label class="pt-2 px-0">Desenvolvedor Web</label>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -212,49 +212,6 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/font-awesome.js"></script>
-    <script>
-        $(function() {
-            let trabalho = $('#trabalhos-recentes').position().top - 130
-            let contato = $('#entre-em-contato').position().top - 130
-            $('#btnInicio, #trabalhos, #contato').on('click', function(e) {
-                e.preventDefault()
-                $('html').animate({scrollTop: $(`#${this.href.split('#')[1]}`).position().top-30}, 1000)
-            })
-            $(window).on('scroll', function(e) {
-                scroll = $(this).scrollTop()
-                if(scroll < trabalho) {
-                    $('#btnInicio, #trabalhos, #contato').removeClass('active')
-                    $('#btnInicio').addClass('active') 
-                }
-                if(scroll >= trabalho) {
-                    $('#btnInicio, #trabalhos, #contato').removeClass('active')
-                    $('#trabalhos').addClass('active')
-                }
-                if(scroll >= contato) {
-                    $('#btnInicio, #trabalhos, #contato').removeClass('active')
-                    $('#contato').addClass('active')
-                }
-            })
-            $('#formZap').on('click', function(e) {
-                e.preventDefault()
-                let nome = $('#nome').val()
-                let email = $('#email').val()
-                let msg = $('#mensagem').val()
-                $('#mensagem').val(`${msg} \nby: ${nome} \nemail: ${email}`)
-                $('form').submit()
-            })
-
-            $('.animate, .apresentacao, #boas-vindas').hide()
-            setInterval(function() {
-                $('#boas-vindas').fadeIn(500)
-            }, 500)
-            setInterval(function() {
-                $('.apresentacao').fadeIn(500)
-            }, 1000)
-            setInterval(function() {
-                $('.animate').fadeIn(500)
-            }, 2000)
-        })
-    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
