@@ -2,16 +2,16 @@
 
 <img src="https://raw.githubusercontent.com/SamuelNunesDev/bootstrap-jquery/main/bootstrap/Portif%C3%B3lio/images/perfil.jpeg">
 
-Meu nome é Samuel Nunes, sou estudante na área de desenvolvimento de sistemas e atuo no mercado como Analista de Desenvolvimento de Sistemas JR oferecendo soluções completas com alta qualidade, de acordo com a necessidade do cliente.
+Meu nome é Samuel Nunes, sou estudante na área de desenvolvimento de sistemas e atuo no mercado como Desenvolvedor de Sistemas oferecendo soluções completas com alta qualidade, de acordo com a necessidade do cliente.
 
 ![Status do GitHub de Samuel Nunes](https://github-readme-stats.vercel.app/api?username=SamuelNunesDev&hide=prs,issues,contribs)]
 
 #### 📃 Sobre mim...
 
-- 👨‍💻 Analista de Desenvolvimento de Sistemas JR na VGX Contact Center.
+- 👨‍💻 Desenvolvedor de Sistemas na Dommus Tecnologia.
 - 👨‍🎓 Estudante de Análise e Desenvolvimento de Sistemas, atualmente cursando o 3º semestre.
-- 💻 Conhecimento e experência com as tecnologias: PHP, Laravel, CSS, Bootstrap, Javascript, Jquery, HTML, Git, MySQL, PostgreSQL, Apache, Linux e Cloud Computing.
-- 🌱 Além da faculdade agora estou focado em desenvolver sistemas web com os frameworks [Laravel](https://laravel.com/) e [Vue.js](https://vuejs.org/), junto com o banco de dados [PostgreSQL](https://www.postgresql.org/)
+- 💻 Conhecimento e experência com as tecnologias: PHP, Laravel, CSS, Bootstrap, Javascript, Jquery, Vue, HTML, Git, MySQL, PostgreSQL, Apache, Linux e Cloud Computing.
+- 🌱 Além da faculdade agora estou focado em desenvolver sistemas web com os frameworks [Laravel](https://laravel.com/) e [Vue.js](https://vuejs.org/), junto com o banco de dados [PostgreSQL](https://www.postgresql.org/). Também tenho grande interesse em React.js.
 - 💬 Me pergunte sobre sistemas web a serem, ou já desenvolvidos. De repente podemos ser paceiros, hein?
 - 😁 Sou bem energético e motivado, focado em aprendizado e em resultados sempre com qualidade. Expertise em sistemas web administrativos, dashboards, relatórios e etc.
 - 💼 Acesse o meu [Portifólio clicando aqui](https://samuelnunesdev.github.io/SamuelNunesDev/)
