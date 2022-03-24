@@ -32,21 +32,21 @@
     <main class="container-fluid px-md-5 px-4">
         <section class="section border-bottom" id="inicio">
             <h2 class="mt-md-2 mt-5 mb-4 text-dark" id="boas-vindas">🙋🏽‍♂️ Olá, tudo bem?</h2>
-            <p class="indent apresentacao">Meu nome é Samuel Nunes, sou estudante na área de desenvolvimento de sistemas e atuo no mercado como Programador de Sistemas de Informação oferecendo soluções completas com alta qualidade, de acordo com a necessidade do cliente.</p>
+            <p class="indent apresentacao">Meu nome é Samuel Nunes, sou estudante na área de desenvolvimento de sistemas e atuo no mercado como Desenvolvedor Fullstack PHP Jr oferecendo soluções completas com alta qualidade, de acordo com a necessidade do cliente.</p>
             <a href="#" class="btn btn-outline-dark mt-2 mb-4 apresentacao" role="button" data-target="#modalMore" data-toggle="modal">
                 <i class="fa fa-plus-circle"></i> Saiba Mais
             </a>
         </section>
         <section class="section animate" id="trabalhos-recentes">
             <h2 class="mt-4 mb-5 text-dark">
-                <i class="fa fa-briefcase mr-1"></i> Projetos Recentes</h2>
-            <article class="row justify-content-around">
+                <i class="fa fa-briefcase mr-1"></i> Últimos Projetos</h2>
+            <article class="row justify-content-around animate first-row">
                 <div class="card col-md-6 col-12" style="width: 18rem;">
                     <a href="https://abraco-quentinho.herokuapp.com/" target="_blank">
                         <img class="card-img-top" src="images/abraco-quentinho.jpg" alt="Card image cap">
                     </a>
                     <div class="card-body">
-                        <h5 class="text-dark">Abraço Quentinho</h5>
+                        <h5 class="text-dark">Programa Transformar</h5>
                         <p><small>Plataforma de doações para ajudar quem necessita de alimentos, agasalhos e etc. Site colaborativo e sem fins lucrativos.</small></p>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </article>
-            <article class="row justify-content-around">
+            <article class="row justify-content-around animate second-row">
                 <div class="card col-md-6 col-12" style="width: 18rem;">
                     <a href="https://samuelnunesdev.github.io/bootstrap-jquery/jquery/Site%20Bootstrap-Jquery/" target="_blank">
                         <img class="card-img-top" src="images/site_jquery.jpg" alt="Card image cap">
@@ -80,7 +80,7 @@
                     </div>
                 </div>
             </article>
-            <article class="row justify-content-around">
+            <article class="row justify-content-around animate third-row">
                 <div class="card col-md-6 col-12" style="width: 18rem;">
                     <a href="https://samuelnunesdev.github.io/starting-point-in-javascript/Projeto/" target="_blank">
                         <img class="card-img-top" src="images/site_javascript.jpg" alt="Card image cap">
@@ -101,7 +101,7 @@
                 </div>
             </article>
         </section>
-        <section class="section animate" id="entre-em-contato">
+        <section class="section animate fourth-row" id="entre-em-contato">
             <h2 class="my-4 text-dark">
                 <i class="fa fa-phone mr-2"></i> Entre em Contato
             </h2>
@@ -138,7 +138,7 @@
             </article>
         </section>
     </main>
-    <section class="p-3 bg-secondary animate">
+    <section class="p-3 bg-secondary animate fourth-row">
         <div class="row justify-content-around">
             <a href="https://linkedin.com/in/samuel-nunes-de-souza-771925225" target="_blank" class="btn btn-info">
                 <img class="p-0 m-0 mb-1" src="images/Linkedin_icon.svg" width="30px" height="20px"> LinkedIn
@@ -164,9 +164,9 @@
             </div>
             <div class="modal-body">
               <ul>
-                  <li class="my-2">👨‍💻 Desenvolvedor de Sistemas na Dommus Tecnologia.</li>
+                  <li class="my-2">👨‍💻 Desenvolvedor Fullstack PHP Jr na Dommus Tecnologia.</li>
                   <li class="my-2">👨‍🎓 Estudante de Análise e Desenvolvimento de Sistemas, atualmente cursando o 3º semestre.</li>
-                  <li class="my-2">💻 Conhecimento e experência com as tecnologias: PHP, Laravel, CSS, Bootstrap, Javascript, Jquery, HTML, Git, MySQL, PostgreSQL, Apache, Linux e Cloud Computing.</li>
+                  <li class="my-2">💻 Conhecimento e experiência com as tecnologias: PHP, Laravel, React, Bootstrap, Javascript, Jquery, Git, SQL, Apache, Linux e Cloud Computing.</li>
                   <li class="my-2">😁 Sou bem energético e motivado, focado em aprendizado e em resultados sempre com qualidade. Expertise em sistemas web administrativos, dashboards, relatórios e etc.</li>
               </ul>
             </div>
@@ -187,7 +187,7 @@
           </div>
         </div>
       </div>
-    <footer class="animate">
+    <footer class="animate second-row">
         <ul class="nav justify-content-end mb-2 px-4">
             <li class="nav-item mx-2">
                 <a href="https://www.facebook.com/Samuel.Nunes.de.Souza2/" target="_blank">
@@ -206,7 +206,7 @@
             </li>
         </ul>
         <ul class="nav justify-content-end px-3">
-            <li class="nav-item mx-3">&copy; 2020 - 2021 | Todos os direitos reservados</li>
+            <li class="nav-item mx-3">&copy; 2020 - <span id="ano-atual"></span> | Todos os direitos reservados</li>
         </ul>
     </footer>
     <script src="js/jquery.min.js"></script>

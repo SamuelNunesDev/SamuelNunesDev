@@ -29,14 +29,22 @@ $(function() {
         $('form').submit()
     })
 
-    $('.animate, .apresentacao, #boas-vindas').hide()
+    $('.animate').hide()
     setInterval(function() {
-        $('#boas-vindas').fadeIn()
+        $('#trabalhos-recentes').fadeIn()
     }, 500)
     setInterval(function() {
-        $('.apresentacao').fadeIn()
+        $('.first-row').show(700)
+    }, 1000)
+    setInterval(function() {
+        $('.second-row').show(700)
+    }, 1500)
+    setInterval(function() {
+        $('.third-row').show(700)
     }, 2000)
     setInterval(function() {
-        $('.animate').fadeIn()
-    }, 4000)
+        $('.fourth-row').show(700)
+    }, 2500)
+
+    $('#ano-atual').text(new Date().getFullYear())
 })
