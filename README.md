@@ -10,8 +10,8 @@ Meu nome é Samuel Nunes, sou estudante na área de desenvolvimento de sistemas 
 
 - 👨‍💻 Desenvolvedor de Sistemas na Dommus Tecnologia.
 - 👨‍🎓 Estudante de Análise e Desenvolvimento de Sistemas, atualmente cursando o 3º semestre.
-- 💻 Conhecimento e experência com as tecnologias: PHP, Laravel, CSS, Bootstrap, Javascript, Jquery, Vue, HTML, Git, MySQL, PostgreSQL, Apache, Linux e Cloud Computing.
-- 🌱 Além da faculdade agora estou focado em desenvolver sistemas web com os frameworks [Laravel](https://laravel.com/) e [Vue.js](https://vuejs.org/), junto com o banco de dados [PostgreSQL](https://www.postgresql.org/). Também tenho grande interesse em React.js.
+- 💻 Conhecimento e experência com as tecnologias: PHP, Laravel, Bootstrap, Javascript, Jquery, Vue, Git, SQL, Apache, Linux e Cloud Computing.
+- 🌱 Além da faculdade agora estou focado em desenvolver sistemas web com os frameworks [Laravel](https://laravel.com/) e [ReactJS](https://pt-br.reactjs.org/), junto com o banco de dados [PostgreSQL](https://www.postgresql.org/).
 - 💬 Me pergunte sobre sistemas web a serem, ou já desenvolvidos. De repente podemos ser paceiros, hein?
 - 😁 Sou bem energético e motivado, focado em aprendizado e em resultados sempre com qualidade. Expertise em sistemas web administrativos, dashboards, relatórios e etc.
 - 💼 Acesse o meu [Portifólio clicando aqui](https://samuelnunesdev.github.io/SamuelNunesDev/)
