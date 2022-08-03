@@ -8,8 +8,8 @@ Meu nome é Samuel Nunes, sou estudante na área de desenvolvimento de sistemas 
 
 #### 📃 Sobre mim...
 
-- 👨‍💻 Desenvolvedor Fullstack PHP Jr na Dommus Tecnologia.
-- 👨‍🎓 Estudante de Análise e Desenvolvimento de Sistemas, atualmente cursando o 3º semestre.
+- 👨‍💻 Desenvolvedor Fullstack PHP Pleno na Dommus Tecnologia.
+- 👨‍🎓 Estudante de Análise e Desenvolvimento de Sistemas, atualmente cursando o 4º semestre.
 - 💻 Conhecimento e experência com as tecnologias: PHP, Laravel, Bootstrap, Javascript, Typescript, ReactJS, Jquery, Vue, Git, SQL, Apache, Linux e Cloud Computing.
 - 🌱 Além da faculdade agora estou focado em desenvolver sistemas web com os frameworks [Laravel](https://laravel.com/) e [ReactJS](https://pt-br.reactjs.org/), junto com o banco de dados [PostgreSQL](https://www.postgresql.org/).
 - 💬 Me pergunte sobre sistemas web a serem, ou já desenvolvidos. De repente podemos ser paceiros, hein?
