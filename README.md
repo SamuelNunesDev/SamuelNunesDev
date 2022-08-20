@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/SamuelNunesDev/bootstrap-jquery/main/bootstrap/Portif%C3%B3lio/images/perfil.jpeg">
 
-Meu nome é Samuel Nunes, sou estudante na área de desenvolvimento de sistemas e atuo no mercado como Programador de Sistemas de Informação oferecendo soluções completas com alta qualidade, de acordo com a necessidade do cliente.
+Meu nome é Samuel Nunes, sou estudante na área de desenvolvimento de sistemas e atuo no mercado como Desenvolvedor Full Stack Pleno na Dommus Tecnologia oferecendo soluções completas com alta qualidade, de acordo com a necessidade do cliente.
 
 ![Status do GitHub de Samuel Nunes](https://github-readme-stats.vercel.app/api?username=SamuelNunesDev&hide=prs,issues,contribs)]
 
